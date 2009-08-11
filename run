@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+gem bundle && bin/chef-solo -c config.rb -j dna.json
